@@ -47,6 +47,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="static_site_generator\" />
     <Folder Include="placeholder\" />
     <Folder Include="placeholder\static\" />
     <Folder Include="placeholder\templates\" />
