@@ -28,6 +28,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="placeholder\placeholder.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="project_name\project_name.py" />
   </ItemGroup>
   <ItemGroup>
