@@ -44,6 +44,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="placeholder\" />
     <Folder Include="project_name\" />
   </ItemGroup>
   <PropertyGroup>
