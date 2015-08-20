@@ -48,7 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="placeholder\" />
+    <Folder Include="placeholder\static\" />
+    <Folder Include="placeholder\templates\" />
     <Folder Include="project_name\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="placeholder\static\site.css" />
+    <Content Include="placeholder\templates\home.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
