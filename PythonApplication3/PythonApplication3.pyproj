@@ -35,6 +35,15 @@
     <Compile Include="static_site_generator\prototypes.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="static_site_generator\sitebuilder\management\commands\build.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static_site_generator\sitebuilder\management\commands\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static_site_generator\sitebuilder\management\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="static_site_generator\sitebuilder\urls.py" />
     <Compile Include="static_site_generator\sitebuilder\views.py" />
     <Compile Include="static_site_generator\sitebuilder\__init__.py" />
@@ -60,6 +69,8 @@
     <Folder Include="project_name\" />
     <Folder Include="static_site_generator\pages\" />
     <Folder Include="static_site_generator\sitebuilder\" />
+    <Folder Include="static_site_generator\sitebuilder\management\" />
+    <Folder Include="static_site_generator\sitebuilder\management\commands\" />
     <Folder Include="static_site_generator\sitebuilder\static\" />
     <Folder Include="static_site_generator\sitebuilder\static\css\" />
     <Folder Include="static_site_generator\sitebuilder\static\fonts\" />
