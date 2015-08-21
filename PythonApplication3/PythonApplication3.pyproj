@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="project_name\project_name.py" />
+    <Compile Include="static_site_generator\prototypes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="static_site_generator\sitebuilder\urls.py" />
     <Compile Include="static_site_generator\sitebuilder\views.py" />
     <Compile Include="static_site_generator\sitebuilder\__init__.py" />
@@ -55,15 +58,35 @@
     <Folder Include="placeholder\static\" />
     <Folder Include="placeholder\templates\" />
     <Folder Include="project_name\" />
+    <Folder Include="static_site_generator\pages\" />
     <Folder Include="static_site_generator\sitebuilder\" />
     <Folder Include="static_site_generator\sitebuilder\static\" />
     <Folder Include="static_site_generator\sitebuilder\static\css\" />
+    <Folder Include="static_site_generator\sitebuilder\static\fonts\" />
     <Folder Include="static_site_generator\sitebuilder\static\js\" />
     <Folder Include="static_site_generator\sitebuilder\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="placeholder\static\site.css" />
     <Content Include="placeholder\templates\home.html" />
+    <Content Include="static_site_generator\pages\contact.html" />
+    <Content Include="static_site_generator\pages\index.html" />
+    <Content Include="static_site_generator\pages\login.html" />
+    <Content Include="static_site_generator\sitebuilder\static\css\bootstrap-theme.css" />
+    <Content Include="static_site_generator\sitebuilder\static\css\bootstrap-theme.css.map" />
+    <Content Include="static_site_generator\sitebuilder\static\css\bootstrap-theme.min.css" />
+    <Content Include="static_site_generator\sitebuilder\static\css\bootstrap.css" />
+    <Content Include="static_site_generator\sitebuilder\static\css\bootstrap.css.map" />
+    <Content Include="static_site_generator\sitebuilder\static\css\bootstrap.min.css" />
+    <Content Include="static_site_generator\sitebuilder\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static_site_generator\sitebuilder\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static_site_generator\sitebuilder\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static_site_generator\sitebuilder\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static_site_generator\sitebuilder\static\js\bootstrap.min.js" />
+    <Content Include="static_site_generator\sitebuilder\static\css\site.css" />
+    <Content Include="static_site_generator\sitebuilder\static\js\jquery.min.js" />
+    <Content Include="static_site_generator\sitebuilder\templates\base.html" />
+    <Content Include="static_site_generator\sitebuilder\templates\page.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
