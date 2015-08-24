@@ -32,6 +32,17 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="project_name\project_name.py" />
+    <Compile Include="scrum\board\admin.py" />
+    <Compile Include="scrum\board\migrations\__init__.py" />
+    <Compile Include="scrum\board\models.py" />
+    <Compile Include="scrum\board\tests.py" />
+    <Compile Include="scrum\board\views.py" />
+    <Compile Include="scrum\board\__init__.py" />
+    <Compile Include="scrum\manage.py" />
+    <Compile Include="scrum\scrum\settings.py" />
+    <Compile Include="scrum\scrum\urls.py" />
+    <Compile Include="scrum\scrum\wsgi.py" />
+    <Compile Include="scrum\scrum\__init__.py" />
     <Compile Include="static_site_generator\prototypes.py">
       <SubType>Code</SubType>
     </Compile>
@@ -62,6 +73,10 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="scrum\" />
+    <Folder Include="scrum\board\" />
+    <Folder Include="scrum\board\migrations\" />
+    <Folder Include="scrum\scrum\" />
     <Folder Include="static_site_generator\" />
     <Folder Include="placeholder\" />
     <Folder Include="placeholder\static\" />
