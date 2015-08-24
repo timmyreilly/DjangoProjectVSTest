@@ -83,6 +83,7 @@
     <Content Include="static_site_generator\pages\contact.html" />
     <Content Include="static_site_generator\pages\index.html" />
     <Content Include="static_site_generator\pages\login.html" />
+    <Content Include="static_site_generator\pages\pricing.html" />
     <Content Include="static_site_generator\sitebuilder\static\css\bootstrap-theme.css" />
     <Content Include="static_site_generator\sitebuilder\static\css\bootstrap-theme.css.map" />
     <Content Include="static_site_generator\sitebuilder\static\css\bootstrap-theme.min.css" />

@@ -40,7 +40,8 @@ class Command(BaseCommand):
             if os.path.exists(settings.SITE_OUTPUT_DIRECTORY):
                 shutil.rmtree(settings.SITE_OUTPUT_DIRECTORY)
             os.mkdir(settings.SITE_OUTPUT_DIRECTORY)
-        os.makedirs(settings.STATIC_ROOT, exist_ok=True)
+        #os.makedirs(settings.STATIC_ROOT, exist_ok=True)
+        os.makedirs(settings.STATIC_ROOT, 0755)
         call_command('collectstatic', interactive=False, clear=True, verbosity=0)
         call_command('compress', interactive=False, force=True)
         client = Client()

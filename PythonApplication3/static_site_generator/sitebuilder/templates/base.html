@@ -28,18 +28,18 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li {% if slug= ='index' %}class="active" {% endif %}>
+                    <li {% if slug == 'index' %}class="active" {% endif %}>
                         <a href="/">Home</a>
                     </li>
-                    <li {% if slug= ='pricing' %}class="active" {% endif %}>
+                    <li {% if slug == 'pricing' %}class="active" {% endif %}>
                         <a href="{% url 'page' 'pricing' %}">Pricing</a>
                     </li>
-                    <li {% if slug= ='contact' %}class="active" {% endif %}>
+                    <li {% if slug == 'contact' %}class="active" {% endif %}>
                         <a href="{% url 'page' 'contact' %}">Contact</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li {% if slug= ='login' %}class="active" {% endif %}>
+                    <li {% if slug == 'login' %}class="active" {% endif %}>
                         <a href="{% url 'page' 'login' %}">Login</a>
                     </li>
                 </ul>
