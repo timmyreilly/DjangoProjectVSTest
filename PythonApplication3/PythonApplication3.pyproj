@@ -76,13 +76,6 @@
     <Folder Include="static_site_generator\sitebuilder\static\fonts\" />
     <Folder Include="static_site_generator\sitebuilder\static\js\" />
     <Folder Include="static_site_generator\sitebuilder\templates\" />
-    <Folder Include="static_site_generator\_build\" />
-    <Folder Include="static_site_generator\_build\contact\" />
-    <Folder Include="static_site_generator\_build\login\" />
-    <Folder Include="static_site_generator\_build\static\" />
-    <Folder Include="static_site_generator\_build\static\css\" />
-    <Folder Include="static_site_generator\_build\static\fonts\" />
-    <Folder Include="static_site_generator\_build\static\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="placeholder\static\site.css" />
@@ -105,22 +98,6 @@
     <Content Include="static_site_generator\sitebuilder\static\js\jquery.min.js" />
     <Content Include="static_site_generator\sitebuilder\templates\base.html" />
     <Content Include="static_site_generator\sitebuilder\templates\page.html" />
-    <Content Include="static_site_generator\_build\contact\index.html" />
-    <Content Include="static_site_generator\_build\index.html" />
-    <Content Include="static_site_generator\_build\login\index.html" />
-    <Content Include="static_site_generator\_build\static\css\bootstrap-theme.css" />
-    <Content Include="static_site_generator\_build\static\css\bootstrap-theme.css.map" />
-    <Content Include="static_site_generator\_build\static\css\bootstrap-theme.min.css" />
-    <Content Include="static_site_generator\_build\static\css\bootstrap.css" />
-    <Content Include="static_site_generator\_build\static\css\bootstrap.css.map" />
-    <Content Include="static_site_generator\_build\static\css\bootstrap.min.css" />
-    <Content Include="static_site_generator\_build\static\css\site.css" />
-    <Content Include="static_site_generator\_build\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="static_site_generator\_build\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="static_site_generator\_build\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="static_site_generator\_build\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="static_site_generator\_build\static\js\bootstrap.min.js" />
-    <Content Include="static_site_generator\_build\static\js\jquery.min.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
